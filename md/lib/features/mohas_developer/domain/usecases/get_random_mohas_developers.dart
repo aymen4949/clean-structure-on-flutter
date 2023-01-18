@@ -17,7 +17,5 @@ class GetRandomMohasDeves implements UseCase<mohasdevelopers, NoParams>{
 return await repository.getRoundomMohasdevelopers();
   }
   
- 
-
 }
 
