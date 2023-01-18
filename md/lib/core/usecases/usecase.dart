@@ -7,6 +7,4 @@ abstract class UseCase<Type, Params> {
   Future<Either<Failures, Type>?> execute(Params params);
 }
 
-class NoParams extends Equitable {
-  
-}
+class NoParams extends Equitable {}
